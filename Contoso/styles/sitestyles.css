@@ -1,0 +1,33 @@
+﻿/**{
+    margin :1px;
+    padding :1px;
+}*/
+form ol {
+    list-style: none;
+}
+
+ol li label {
+    display: block;
+   
+
+
+}
+
+input [type="submit"] {
+    color: hotpink;
+}
+form fieldset{ background-color:white}
+
+
+/*footer {
+    display: block;
+}*/
+/*body {
+    font-family: 'Times New Roman';
+    color: blue;
+}
+
+h1 {
+    font-family: 'Copperplate Gothic';
+    color: red;
+}*/

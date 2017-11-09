@@ -3,20 +3,88 @@
 <head>
     <meta charset="utf-8" />
     <title>Contact Us</title>
+
+    <link href="ContactUsStyle.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>Contact Contoso Conferencing</h1>
-    <p>Contoso Conferencing Ltd</p>
-    <p>
-        <ul style="text-decoration: wavy;list-style: georgian">
-            <li>123 South Street</li>
-            <li>Copenhagen</li>
-            <li>USA</li>
-            <li><em>Denmark</em></li>
-        </ul>
-    </p>
-    <p>
-        <a href="mailto:contact@contoso.com ">contact@contoso.com</a>
-    </p>
+    <article>
+        <img src="Image/Contoso.png" alt="Contoso" />
+        <div>
+            <header>
+                <h1>Contact Contoso Conferencing</h1>
+            </header>
+        </div>
+        <section>
+
+            <p>Contoso Conferencing Ltd</p>
+            <p>
+                <ul style="text-decoration: wavy;list-style: none">
+                    <li>123 Rock Garden</li>
+                    <li>Brighton</li>
+                    <li>South Downs</li>
+                    <li><em>UK</em></li>
+                </ul>
+            </p>
+            <p>
+                <a href="mailto:contact@contoso.com ">contact@contoso.com</a>
+            </p>
+        </section>
+        <section>
+            <p>
+                If you would like to contact Contoso Conferencing, whether you're interested in our services or in a conference we're currently 
+                organizing, don't hesitate to contact us using our enquiry form (<strong>Bold fields</strong> are required).
+            </p>
+
+            <form method="Post" action="support.aspx">
+                <fieldset>
+                    <legend>Your details and enquiry</legend>
+                    <ol type="none">
+                        <li>
+                            <label for=" id_user_name">
+                                <strong>Nmae</strong>
+                            </label>
+                            <input type="text" name=" UserName" id="id_user_name" />
+                        </li>
+                        <li>
+                            <label for=" id_phone">
+                                Telephone
+                            </label>
+                            <input type="tel" name="Phone" id="id_phone" />
+                        </li>
+                        <li>
+                            <label for=" id_email">
+                                Email
+                            </label>
+                            <input type="text" name="Phone" id="id_email" />
+                        </li>
+                        <li>
+                            <label for=" id_message">
+                                <strong>Message</strong>
+                            </label>
+                            <textarea name=" Message" id=" id_message" cols=" 30" rows="10 " placeholder="Add your Message"></textarea>
+                        </li>
+                    </ol>
+                </fieldset>
+                <input type="submit" value=" Send" />
+
+            </form>
+        </section>
+
+    </article>
+    <footer>
+        <p>
+            <small >
+                Last Updated by Reenu
+            </small>
+        </p>
+    </footer>
+    <!--<address>
+        Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>-->
+
 </body>
 </html>

@@ -1,0 +1,35 @@
+﻿body {
+    margin-left: 50px;
+}
+header {
+    padding-bottom: 10px;
+    border-bottom: 2px dotted blue;
+    margin-bottom: 10px;
+}
+    header h1 {
+        margin-left: 20px;
+        display: inline-block;
+    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    margin-right: 20px;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+
+        li a:hover {
+            background-color: #111111;
+        }

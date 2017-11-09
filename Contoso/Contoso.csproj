@@ -75,8 +75,24 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="about.html" />
     <Content Include="ContactUs.html" />
+    <Content Include="ContactUsJens.html" />
+    <Content Include="ContactUsStyle.css" />
+    <Content Include="Image\Speakers\april-meyer.jpg" />
+    <Content Include="Image\Contoso.png" />
+    <Content Include="Image\Speakers\david-alexander.jpg" />
+    <Content Include="Image\Speakers\mark-hanson.jpg" />
+    <Content Include="Image\Speakers\melissa-kerr.jpg" />
+    <Content Include="Image\Sponsors\sponsor1.png" />
+    <Content Include="Image\Sponsors\sponsor2.png" />
+    <Content Include="Image\Sponsors\sponsor3.png" />
+    <Content Include="Image\Sponsors\sponsor4.png" />
+    <Content Include="Image\Sponsors\sponsor5.png" />
     <Content Include="index.html" />
+    <Content Include="styles\AboutStyle.css" />
+    <Content Include="styles\IndexStyle.css" />
+    <Content Include="styles\sitestyles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

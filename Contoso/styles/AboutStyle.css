@@ -1,0 +1,14 @@
+﻿body {
+    font-family: 'Segoe UI',Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding-bottom: 10px;
+    border-bottom: 2px dotted blue;
+    margin-bottom: 10px;
+}
+
+    header h1 {
+        margin-left: 20px;
+        display: inline-block;
+    }
